@@ -83,3 +83,30 @@ p {
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+
+/* Responsive */
+@media only screen and (max-width: 946px) {
+  .modal {
+    top: 60%;
+  }
+  .show-modal {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .modal {
+    top: 70%;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .modal {
+    top: 90%;
+  }
+
+  .show-modal {
+    font-size: 1.3rem;
+    margin: 5rem 0.3rem;
+  }
+}
