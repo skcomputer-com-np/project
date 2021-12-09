@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #121212;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 550;
+  color: #000;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #66ff99;
+}
+.dClock {
+  position: relative;
+}
+
+.dClock p {
+  position: absolute;
+  top: 0;
+  left: 58%;
+  font-size: 3rem;
+  text-align: center;
+  color: tomato;
+}
+
+#dWatch,
+#clockWithDate {
+  font-family: 'Orbitron', sans-serif;
+  color: #66ff99;
+  font-size: 56px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: solid tomato;
+}
+
+/* Responsive */
+@media only screen and (max-width: 946px) {
+  .dClock p {
+    left: 60%;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .dClock p {
+    left: 63%;
+  }
+}
+
+@media only screen and (max-width: 541px) {
+  .dClock p {
+    left: 70%;
+  }
+}
