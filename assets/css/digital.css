@@ -5,9 +5,29 @@ body {
   font-weight: 550;
 }
 .container h1 {
+  text-align: center;
+  color: #ccc;
   margin-top: 30px;
 }
 
-.row {
-  margin-top: 25px;
+.row,
+.row .col-sm-4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.row .col-sm-4 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-12 .title {
+  text-align: center;
+  color: #ccc;
+  margin-top: 30px;
+}
+
+.row .card {
+  background-color: #191a19;
 }
